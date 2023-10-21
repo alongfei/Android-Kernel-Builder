@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Xiaomi_Kernel_OpenSource-sdm845",
-      "repo": "https://github.com/Akitlove/Xiaomi_Kernel_OpenSource-sdm845",
-      "branch": "88-zstd",
-      "device": "dipper",
-      "defconfig": "dipper_user_defconfig"
+      "name": "Xiaomi_Kernel_OpenSource-sdm855",
+      "repo": "https://github.com/alongfei/android_kernel_xiaomi_crux",
+      "branch": "android-13",
+      "device": "crux",
+      "defconfig": "cuttlefish_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
