@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Xiaomi_Kernel_OpenSource-sdm855",
-      "repo": "https://github.com/alongfei/android_kernel_xiaomi_crux",
-      "branch": "android-13",
+      "name": "mi9pro",
+      "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/crux-p-oss",
+      "branch": "crux-p-oss",
       "device": "crux",
-      "defconfig": "cuttlefish_defconfig"
+      "defconfig": "crux_user_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
