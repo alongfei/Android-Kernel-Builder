@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Xiaomi_Kernel_OpenSource-sdm845",
-      "repo": "https://github.com/Akitlove/Xiaomi_Kernel_OpenSource-sdm845",
-      "branch": "88-zstd",
+      "name": "crdkernel",
+      "repo": "https://github.com/2936410488/crd_845kernel",
+      "branch": "14",
       "device": "polaris",
-      "defconfig": "polaris_user_defconfig"
+      "defconfig": "vendor/xiaomi/mi845_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
