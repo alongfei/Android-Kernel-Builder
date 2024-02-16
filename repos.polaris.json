@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "crdkernel",
-      "repo": "https://github.com/2936410488/crd_845kernel",
-      "branch": "14.0",
-      "device": "polaris",
-      "defconfig": "vendor/xiaomi/mi845_defconfig"
+      "name": "Raphael",
+      "repo": "https://github.com/alongfei/Xiaomi_Kernel_OpenSource",
+      "branch": "cepheus-q-oss",
+      "device": "raphael",
+      "defconfig": "raphael_user_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
