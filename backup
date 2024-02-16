@@ -1,0 +1,46 @@
+[
+  {
+    "kernelSource": {
+      "name": "EtudeKernel-KSU",
+      "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_polaris",
+      "branch": "thirteen",
+      "device": "polaris",
+      "defconfig": "polaris_defconfig"
+    },
+    "withKernelSU": true,
+    "toolchains": [
+      {
+        "repo": "https://gitlab.com/jjpprrrr/prelude-clang",
+        "branch": "master",
+        "name": "prelude-clang",
+        "binPath": ["bin"]
+      }
+    ],
+    "ccache": true,
+    "params": {
+      "ARCH": "arm64",
+      "CC": "prelude-clang/bin/clang",
+      "externalCommand": {
+        "CROSS_COMPILE": "prelude-clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "prelude-clang/bin/arm-linux-gnueabi-",
+        "LD": "prelude-clang/bin/ld.lld",
+        "AR": "prelude-clang/bin/llvm-ar",
+        "NM": "prelude-clang/bin/llvm-nm",
+        "OBJCOPY": "prelude-clang/bin/llvm-objcopy",
+        "OBJDUMP": "prelude-clang/bin/llvm-objdump",
+        "READELF": "prelude-clang/bin/llvm-readelf",
+        "OBJSIZE": "prelude-clang/bin/llvm-size",
+        "STRIP": "prelude-clang/bin/llvm-strip",
+        "LDGOLD": "prelude-clang/bin/aarch64-linux-gnu-ld.gold",
+        "LLVM_AR": "prelude-clang/bin/llvm-ar",
+        "LLVM_DIS": "prelude-clang/bin/llvm-dis"
+      }
+    },
+    "AnyKernel3": {
+      "use": true,
+      "release": true,
+      "repo": "https://github.com/Shuery-Shuai/AnyKernel3",
+      "branch": "polaris"
+    }
+  }
+ ] 
