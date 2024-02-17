@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "Raphael",
-      "repo": "https://github.com/ashoksoni/kernel_xiaomi_raphael",
+      "repo": "https://github.com/alongfei/kernel_xiaomi_raphael",
       "branch": "ten",
       "device": "raphael",
       "defconfig": "raphael_defconfig"
