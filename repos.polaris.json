@@ -5,7 +5,7 @@
       "repo": "https://github.com/alongfei/Xiaomi_Kernel_OpenSource",
       "branch": "cepheus-q-oss",
       "device": "raphael",
-      "defconfig": "raphael_user_defconfig"
+      "defconfig": "raphael_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
