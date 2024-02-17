@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "Raphael",
-      "repo": "https://github.com/dragonGR/xiaomi_sm8150",
-      "branch": "q10.0",
+      "repo": "https://github.com/ashoksoni/kernel_xiaomi_raphael",
+      "branch": "ten",
       "device": "raphael",
       "defconfig": "raphael_defconfig"
     },
