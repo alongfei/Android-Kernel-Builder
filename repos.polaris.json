@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "Raphael",
-      "repo": "https://github.com/alongfei/Xiaomi_Kernel_OpenSource",
-      "branch": "cepheus-q-oss",
+      "repo": "https://github.com/dragonGR/xiaomi_sm8150",
+      "branch": "q10.0",
       "device": "raphael",
       "defconfig": "raphael_defconfig"
     },
