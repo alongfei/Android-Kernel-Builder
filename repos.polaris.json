@@ -10,30 +10,30 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://github.com/Neutron-Toolchains/neutron-clang",
-        "branch": "Neutron-14",
-        "name": "neutron-clang",
+        "repo": "https://github.com/EmanuelCN/zyc_clang-14",
+        "branch": "master",
+        "name": "zyc_clang",
         "binPath": ["bin"]
       }
     ],
     "ccache": true,
     "params": {
       "ARCH": "arm64",
-      "CC": "neutron-clang/bin/clang",
+      "CC": "zyc_clang/bin/clang",
       "externalCommand": {
-        "CROSS_COMPILE": "neutron-clang/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "prelude-clang/bin/arm-linux-gnueabi-",
-        "LD": "neutron-clang/bin/ld.lld",
-        "AR": "neutron-clang/bin/llvm-ar",
-        "NM": "neutron-clang/bin/llvm-nm",
-        "OBJCOPY": "neutron-clang/bin/llvm-objcopy",
-        "OBJDUMP": "neutron-clang/bin/llvm-objdump",
-        "READELF": "neutron-clang/bin/llvm-readelf",
-        "OBJSIZE": "neutron-clang/bin/llvm-size",
-        "STRIP": "neutron-clang/bin/llvm-strip",
-        "LDGOLD": "neutron-clang/bin/aarch64-linux-gnu-ld.gold",
-        "LLVM_AR": "neutron-clang/bin/llvm-ar",
-        "LLVM_DIS": "neutron-clang/bin/llvm-dis"
+        "CROSS_COMPILE": "zyc_clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "zyc_clang/bin/arm-linux-gnueabi-",
+        "LD": "zyc_clang/bin/ld.lld",
+        "AR": "zyc_clang/bin/llvm-ar",
+        "NM": "zyc_clang/bin/llvm-nm",
+        "OBJCOPY": "zyc_clang/bin/llvm-objcopy",
+        "OBJDUMP": "zyc_clang/bin/llvm-objdump",
+        "READELF": "zyc_clang/bin/llvm-readelf",
+        "OBJSIZE": "zyc_clang/bin/llvm-size",
+        "STRIP": "zyc_clang/bin/llvm-strip",
+        "LDGOLD": "zyc_clang/bin/aarch64-linux-gnu-ld.gold",
+        "LLVM_AR": "zyc_clang/bin/llvm-ar",
+        "LLVM_DIS": "zyc_clang/bin/llvm-dis"
       }
     },
     "AnyKernel3": {
