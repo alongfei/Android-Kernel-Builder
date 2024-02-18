@@ -10,30 +10,30 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://gitlab.com/jjpprrrr/prelude-clang",
-        "branch": "master",
-        "name": "prelude-clang",
+        "repo": "https://github.com/Neutron-Toolchains/neutron-clang",
+        "branch": "Neutron-14",
+        "name": "neutron-clang",
         "binPath": ["bin"]
       }
     ],
     "ccache": true,
     "params": {
       "ARCH": "arm64",
-      "CC": "prelude-clang/bin/clang",
+      "CC": "neutron-clang/bin/clang",
       "externalCommand": {
-        "CROSS_COMPILE": "prelude-clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE": "neutron-clang/bin/aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "prelude-clang/bin/arm-linux-gnueabi-",
-        "LD": "prelude-clang/bin/ld.lld",
-        "AR": "prelude-clang/bin/llvm-ar",
-        "NM": "prelude-clang/bin/llvm-nm",
-        "OBJCOPY": "prelude-clang/bin/llvm-objcopy",
-        "OBJDUMP": "prelude-clang/bin/llvm-objdump",
-        "READELF": "prelude-clang/bin/llvm-readelf",
-        "OBJSIZE": "prelude-clang/bin/llvm-size",
-        "STRIP": "prelude-clang/bin/llvm-strip",
-        "LDGOLD": "prelude-clang/bin/aarch64-linux-gnu-ld.gold",
-        "LLVM_AR": "prelude-clang/bin/llvm-ar",
-        "LLVM_DIS": "prelude-clang/bin/llvm-dis"
+        "LD": "neutron-clang/bin/ld.lld",
+        "AR": "neutron-clang/bin/llvm-ar",
+        "NM": "neutron-clang/bin/llvm-nm",
+        "OBJCOPY": "neutron-clang/bin/llvm-objcopy",
+        "OBJDUMP": "neutron-clang/bin/llvm-objdump",
+        "READELF": "neutron-clang/bin/llvm-readelf",
+        "OBJSIZE": "neutron-clang/bin/llvm-size",
+        "STRIP": "neutron-clang/bin/llvm-strip",
+        "LDGOLD": "neutron-clang/bin/aarch64-linux-gnu-ld.gold",
+        "LLVM_AR": "neutron-clang/bin/llvm-ar",
+        "LLVM_DIS": "neutron-clang/bin/llvm-dis"
       }
     },
     "AnyKernel3": {
