@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "Raphael",
       "repo": "https://github.com/alongfei/android_kernel_xiaomi_sm8150",
-      "branch": "14.0-raphael-b",
+      "branch": "13.0-raphael",
       "device": "raphael",
       "defconfig": "raphael_defconfig"
     },
