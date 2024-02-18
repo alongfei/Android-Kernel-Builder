@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "Raphael",
-      "repo": "https://github.com/alongfei/kernel_xiaomi_raphael",
-      "branch": "ten",
+      "repo": "https://github.com/alongfei/kernel_xiaomi_raphael_pe",
+      "branch": "thirteen",
       "device": "raphael",
       "defconfig": "raphael_defconfig"
     },
