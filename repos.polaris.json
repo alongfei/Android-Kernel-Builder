@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "Raphael",
-      "repo": "https://github.com/alongfei/android_kernel_xiaomi_sm8150",
-      "branch": "14.0-raphael",
-      "device": "raphael",
-      "defconfig": "raphael_defconfig"
+      "repo": "https://github.com/alongfei/Xiaomi_Kernel_OpenSource",
+      "branch": "crux-p-oss",
+      "device": "crux",
+      "defconfig": "crux_user_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
