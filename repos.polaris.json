@@ -1,45 +1,44 @@
 [
   {
     "kernelSource": {
-      "name": "Raphael",
-      "repo": "https://github.com/alongfei/Xiaomi_Kernel_OpenSource",
-      "branch": "crux-p-oss",
-      "device": "crux",
-      "defconfig": "crux_user_defconfig"
+      "name": "NGK_android_kernel_xiaomi_sdm845",
+      "repo": "https://github.com/Akitlove/NGK_android_kernel_xiaomi_sdm845",
+      "branch": "t-caf-ksu",
+      "device": "polaris",
+      "defconfig": "nogravity-polaris_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://github.com/EmanuelCN/zyc_clang-14",
-        "branch": "master",
-        "name": "zyc_clang",
-        "binPath": ["bin"]
+        "repo": "https://github.com/Akitlove/android-kernel-tools",
+        "branch": "clang13",
+        "name": "clang13",
+        "binPath": ["./bin"]
       }
     ],
-    "ccache": true,
     "params": {
       "ARCH": "arm64",
-      "CC": "zyc_clang/bin/clang",
+      "CC": "clang13/clang/host/linux-x86/clang-r428724/bin/clang",
       "externalCommand": {
-        "CROSS_COMPILE": "zyc_clang/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "zyc_clang/bin/arm-linux-gnueabi-",
-        "LD": "zyc_clang/bin/ld.lld",
-        "AR": "zyc_clang/bin/llvm-ar",
-        "NM": "zyc_clang/bin/llvm-nm",
-        "OBJCOPY": "zyc_clang/bin/llvm-objcopy",
-        "OBJDUMP": "zyc_clang/bin/llvm-objdump",
-        "READELF": "zyc_clang/bin/llvm-readelf",
-        "OBJSIZE": "zyc_clang/bin/llvm-size",
-        "STRIP": "zyc_clang/bin/llvm-strip",
-        "LDGOLD": "zyc_clang/bin/aarch64-linux-gnu-ld.gold",
-        "LLVM_AR": "zyc_clang/bin/llvm-ar",
-        "LLVM_DIS": "zyc_clang/bin/llvm-dis"
+        "CROSS_COMPILE": "clang13/linaro-gcc-4.9/aarch64-linux-gnu/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "clang13/linaro-gcc-4.9/arm-linux-gnueabi/bin/arm-linux-gnueabi-",
+        "AR": "clang13/clang/host/linux-x86/clang-r428724/bin/llvm-ar",
+        "NM": "clang13/clang/host/linux-x86/clang-r428724/bin/llvm-nm",
+        "OBJCOPY": "clang13/clang/host/linux-x86/clang-r428724/bin/llvm-objcopy",
+        "OBJDUMP": "clang13/clang/host/linux-x86/clang-r428724/bin/llvm-objdump",
+        "READELF": "clang13/clang/host/linux-x86/clang-r428724/bin/llvm-readelf",
+        "OBJSIZE": "clang13/clang/host/linux-x86/clang-r428724/bin/llvm-size",
+        "STRIP": "clang13/clang/host/linux-x86/clang-r428724/bin/llvm-strip",
+        "HOSTCC": "clang13/clang/host/linux-x86/clang-r428724/bin/clang",
+        "HOSTCXX": "clang13/clang/host/linux-x86/clang-r428724/bin/clang++",
+        "LLVM_AR": "clang13/clang/host/linux-x86/clang-r428724/bin/llvm-ar",
+        "LLVM_DIS": "clang13/clang/host/linux-x86/clang-r428724/bin/llvm-dis"
       }
     },
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/2936410488/AnyKernel3",
+      "repo": "https://github.com/Akitlove/AnyKernel3",
       "branch": "master"
     }
   }
