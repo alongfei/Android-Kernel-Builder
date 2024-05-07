@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "NGK_android_kernel_xiaomi_sdm845",
-      "repo": "https://github.com/mvaisakh/alioth",
-      "branch": "rebased",
+      "name": "10 pro",
+      "repo": "https://github.com/UtsavBalar1231/kernel_xiaomi_sm8250",
+      "branch": "android12-caf",
       "device": "cmi",
-      "defconfig": "vendor/cmi_defconfig"
+      "defconfig": "cmi_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
