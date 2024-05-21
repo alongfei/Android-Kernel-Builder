@@ -15,7 +15,7 @@ jobs:
       builddate: ${{ steps.generate-builddate.outputs.builddate }}
     steps:
       - name: "😄 Checkout"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: "😆 Generate Matrix"
         id: generate-matrix
@@ -162,7 +162,7 @@ jobs:
           make ${args}
 
       - name: "💛 Upload Image.gz-dtb"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         env:
           arch: ${{ steps.generate-args.outputs.ARCH }}
         with:
@@ -172,7 +172,7 @@ jobs:
           retention-days: 7
 
       - name: "💙 Upload Image"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         env:
           arch: ${{ steps.generate-args.outputs.ARCH }}
         with:
@@ -182,7 +182,7 @@ jobs:
           retention-days: 7
 
       - name: "💜 Upload dtb"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         env:
           arch: ${{ steps.generate-args.outputs.ARCH }}
         with:
@@ -192,7 +192,7 @@ jobs:
           retention-days: 7
 
       - name: "❤️ Upload dtbo.img"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         env:
           arch: ${{ steps.generate-args.outputs.ARCH }}
         with:
@@ -217,7 +217,7 @@ jobs:
           zip -q -r "${{ env.anykernel }}.zip" *
 
       - name: "💾 Upload AnyKernel3 image => (${{ env.builddate }})"
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: ${{ env.useAnykernel == 'true' }}
         with:
           name: "${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}_${{ env.builddate }}"
