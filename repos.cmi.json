@@ -5,7 +5,7 @@
       "repo": "https://github.com/alongfei/kernel_xiaomi_sm8250.git",
       "branch": "android13-clo",
       "device": "cmi",
-      "defconfig": "vendor/xiaomi/stock/cmi-stock_defconfig"
+      "defconfig": "cmi_user_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
