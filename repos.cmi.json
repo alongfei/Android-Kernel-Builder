@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "10pro",
-      "repo": "https://github.com/UtsavBalar1231/kernel_xiaomi_sm8250.git",
-      "branch": "android13-clo",
+      "repo": "https://github.com/alongfei/Xiaomi_Kernel_OpenSource",
+      "branch": "cmi-r-oss",
       "device": "cmi",
       "defconfig": "cmi_user_defconfig"
     },
