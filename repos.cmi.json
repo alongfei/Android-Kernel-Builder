@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "10pro",
-      "repo": "https://github.com/FanBB2333/android_kernel_xiaomi_sm8250",
-      "branch": "CAF",
+      "repo": "https://github.com/Mengkernel/kernel_xiaomi_sm8250",
+      "branch": "android12-caf",
       "device": "cmi",
-      "defconfig": "cmi_user_defconfig"
+      "defconfig": "cmi_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
