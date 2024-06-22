@@ -5,7 +5,7 @@
       "repo": "https://github.com/alongfei/android_kernel_samsung_sm8250",
       "branch": "lineage-21",
       "device": "y2qdcmw",
-      "defconfig": "vendor/lineage_y2qdcmw_defconfig"
+      "defconfig": "vendor/y2q_jpn_dcmw_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
