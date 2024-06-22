@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "10pro",
-      "repo": "https://github.com/alongfei/kernel_xiaomi_sm8250.git",
-      "branch": "android13-clo",
-      "device": "cmi",
-      "defconfig": "cmi_user_defconfig"
+      "repo": "https://github.com/alongfei/android_kernel_samsung_sm8250",
+      "branch": "lineage-21",
+      "device": "y2qdcmw",
+      "defconfig": "lineage_y2qdcmw_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
