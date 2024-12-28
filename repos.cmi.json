@@ -2,8 +2,8 @@
   {
     "kernelSource": {
       "name": "10pro",
-      "repo": "https://github.com/Mengkernel/kernel_xiaomi_sm8250",
-      "branch": "android12-caf",
+      "repo": "https://github.com/alongfei/Magictime",
+      "branch": "magictime-new",
       "device": "cmi",
       "defconfig": "cmi_defconfig"
     },
